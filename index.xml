@@ -135,7 +135,7 @@
       &lt;leaflet-marker longitude=&#34;77.2&#34; latitude=&#34;28.4&#34;&gt;
         Marker I
       &lt;/leaflet-marker&gt;
-      &lt;leaflet-circle longitude=&#34;77.2001&#34; latitude=&#34;28.4001&#34; radius=&#34;300&#34;&gt;
+      &lt;leaflet-circle longitude=&#34;77.2&#34; latitude=&#34;28.4&#34; radius=&#34;300&#34;&gt;
         Round
       &lt;/leaflet-circle&gt;
   &lt;/leaflet-map&gt;
