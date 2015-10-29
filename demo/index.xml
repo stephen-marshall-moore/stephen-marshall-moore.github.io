@@ -45,6 +45,49 @@
     
     <item>
       <title></title>
+      <link>http://stephen-marshall-moore.github.io/demo/map_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://stephen-marshall-moore.github.io/demo/map_1/</guid>
+      <description>&lt;html&gt;
+&lt;head&gt;
+  &lt;script type=&#34;text/javascript&#34; src=&#34;../../bower_components/webcomponentsjs/webcomponents-lite.js&#34;&gt;&lt;/script&gt;
+  &lt;link rel=&#34;import&#34; href=&#34;../../bower_components/leaflet-map/leaflet-map.html&#34;&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    html, body {
+      margin: 0;
+      height: 100%;
+    }
+    leaflet-map {
+      height: 100%;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;leaflet-map fit-to-markers&gt;
+    &lt;leaflet-marker longitude=&#34;-0.09&#34; latitude=&#34;51.5&#34;&gt;
+      &lt;em&gt;Hello World!&lt;/em&gt;&lt;br/&gt;I am a popup.
+    &lt;/leaflet-marker&gt;
+    &lt;leaflet-circle longitude=&#34;-0.11&#34; latitude=&#34;51.508&#34; radius=&#34;500&#34;
+      color=&#34;red&#34; fillColor=&#34;#f03&#34; fillOpacity=&#34;0.5&#34; fill=&#34;true&#34;&gt;
+      text for popup over circle
+    &lt;/leaflet-circle&gt;
+    &lt;leaflet-polygon &gt;
+            &lt;leaflet-point longitude=&#34;-0.08&#34; latitude=&#34;51.509&#34;&gt;&lt;/leaflet-point&gt;
+            &lt;leaflet-point longitude=&#34;-0.06&#34; latitude=&#34;51.503&#34;&gt;&lt;/leaflet-point&gt;
+            &lt;leaflet-point longitude=&#34;-0.047&#34; latitude=&#34;51.51&#34;&gt;&lt;/leaflet-point&gt;
+            will this popup?
+    &lt;/leaflet-polygon&gt;
+  &lt;/leaflet-map&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://stephen-marshall-moore.github.io/demo/map_zero/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
