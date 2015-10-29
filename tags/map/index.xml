@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Map on musing on github.io related to leaflet-map</title>
+    <link>http://stephen-marshall-moore.github.io/tags/map/</link>
+    <description>Recent content in Map on musing on github.io related to leaflet-map</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Oct 2015 15:57:52 -0700</lastBuildDate>
+    <atom:link href="http://stephen-marshall-moore.github.io/tags/map/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>zero</title>
+      <link>http://stephen-marshall-moore.github.io/demo/zero/</link>
+      <pubDate>Tue, 27 Oct 2015 15:57:52 -0700</pubDate>
+      
+      <guid>http://stephen-marshall-moore.github.io/demo/zero/</guid>
+      <description>
+
+&lt;h1 id=&#34;demo-zero-copied-from-leaflet-map-quickstart-guide-in-readme-md:c1827c024e5baf0e85778b697ce449e1&#34;&gt;Demo Zero, copied from leaflet-map QuickStart Guide in README.md&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/leaflet-extras/leaflet-map/&#34;&gt;leaflet-map on Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../map_zero&#34;&gt;map&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;uses &lt;a href=&#34;https://github.com/stephen-marshall-moore/leaflet-map/tree/use_bounds_for_fit_to_markers&#34;&gt;branch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

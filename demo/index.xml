@@ -1,36 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>musing on github.io related to leaflet-map</title>
-    <link>http://stephen-marshall-moore.github.io/</link>
-    <description>Recent content on musing on github.io related to leaflet-map</description>
+    <title>Demos on musing on github.io related to leaflet-map</title>
+    <link>http://stephen-marshall-moore.github.io/demo/</link>
+    <description>Recent content in Demos on musing on github.io related to leaflet-map</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2015 15:59:31 -0700</lastBuildDate>
-    <atom:link href="http://stephen-marshall-moore.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>leaflet map</title>
-      <link>http://stephen-marshall-moore.github.io/post/leaflet-map/</link>
-      <pubDate>Tue, 27 Oct 2015 15:59:31 -0700</pubDate>
-      
-      <guid>http://stephen-marshall-moore.github.io/post/leaflet-map/</guid>
-      <description>
-
-&lt;h2 id=&#34;leaflet-map-web-component-wrapper-for-leaflet-js:ba2444b051decab16bc7adcfb7c27ce8&#34;&gt;Leaflet Map, web component wrapper for leaflet.js&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://leafletjs.com&#34;&gt;leaflet.js&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://leaflet-extras.github.io/leaflet-map/demo.html&#34;&gt;leaflet-map&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;demos-using-features-added-in-my-fork-of-leaflet-map-repo:ba2444b051decab16bc7adcfb7c27ce8&#34;&gt;Demos using features added in my fork of leaflet-map repo&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://stephen-marshall-moore.github.io/demo/zero&#34;&gt;Demo Zero&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
+    <lastBuildDate>Tue, 27 Oct 2015 15:57:52 -0700</lastBuildDate>
+    <atom:link href="http://stephen-marshall-moore.github.io/demo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>zero</title>

@@ -1,0 +1,40 @@
+{
+  "name": "leaflet-map",
+  "authors": [
+    "Hendrik Brummermann <nhnb@users.sourceforge.net>",
+    "Prateek Saxena <prtksxna@gmail.com>"
+  ],
+  "description": "Leaflet map as web-component based on polymer",
+  "main": "leaflet-map.html",
+  "homepage": "https://leaflet-extras.github.io/leaflet-map/",
+  "keywords": [
+    "polymer",
+    "web-components",
+    "leaflet",
+    "leafletjs",
+    "map"
+  ],
+  "license": "BSD 2-Clause",
+  "ignore": [
+    "**/.*",
+    "demo.html",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^1.0.0",
+    "leaflet": "^0.7.3"
+  },
+  "_release": "b47ae7aff1",
+  "_resolution": {
+    "type": "branch",
+    "branch": "use_bounds_for_fit_to_markers",
+    "commit": "b47ae7aff10870732130acc2fd57a8cbe2a6efea"
+  },
+  "_source": "https://github.com/stephen-marshall-moore/leaflet-map.git",
+  "_target": "use_bounds_for_fit_to_markers",
+  "_originalSource": "https://github.com/stephen-marshall-moore/leaflet-map.git",
+  "_direct": true
+}
