@@ -44,10 +44,23 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/leaflet-extras/leaflet-map/&#34;&gt;leaflet-map on Github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../map_zero&#34;&gt;map&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;view-source:http://stephen-marshall-moore.github.io/demo/map_zero&#34;&gt;view source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;using [branch (leaflet 1.1.0)(&lt;a href=&#34;https://github.com/leaflet-extras/leaflet-map.git&#34;&gt;https://github.com/leaflet-extras/leaflet-map.git&lt;/a&gt;)
 
 &lt;ul&gt;
-&lt;li&gt;uses &lt;a href=&#34;https://github.com/stephen-marshall-moore/leaflet-map/tree/use_bounds_for_fit_to_markers&#34;&gt;branch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;resulting error (in Chrome Version 45.0.2454.99 (64-bit) on openSuse Tumbleweed)
+
+&lt;ul&gt;
+&lt;li&gt;Error: Invalid value for &lt;path&gt; attribute d=&amp;ldquo;M0,-7.649338877763425e+302A7.649338877763425e+302,7.649338877763425e+302,0,1,1,-0.1,-7.649338877763425e+302 z&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;from what I dug through this is the result of the SVG intrepeter in Chrome only accepting single precision floats and this contains double precision representations what I haven&amp;rsquo;t dug into is where the large numbers arise from&lt;/li&gt;
+&lt;li&gt;If the leaflet-circle is removed then the error does not occur but no tiles is displayed&lt;/li&gt;
+&lt;li&gt;Moving the circle from the same location also removes the error (no tiles displayed, beyond zoom?)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;using &lt;a href=&#34;https://github.com/stephen-marshall-moore/leaflet-map/tree/use_bounds_for_fit_to_markers&#34;&gt;branch use_bounds_for_fit_to_markers&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://stephen-marshall-moore.github.io/demo/map_zero&#34;&gt;resulting map&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -75,15 +88,12 @@
 &lt;/head&gt;
 &lt;body&gt;
   &lt;leaflet-map fit-to-markers&gt;
-    &lt;leaflet-marker longitude=&#34;77.2&#34; latitude=&#34;28.4&#34;&gt;
-      Marker I
-    &lt;/leaflet-marker&gt;
-    &lt;leaflet-marker longitude=&#34;77.3&#34; latitude=&#34;28.5&#34;&gt;
-      Marker I
-    &lt;/leaflet-marker&gt;
-    &lt;leaflet-circle longitude=&#34;77.2&#34; latitude=&#34;28.4&#34; radius=&#34;300&#34;&gt;
-      Round
-    &lt;/leaflet-circle&gt;
+      &lt;leaflet-marker longitude=&#34;77.2&#34; latitude=&#34;28.4&#34;&gt;
+        Marker I
+      &lt;/leaflet-marker&gt;
+      &lt;leaflet-circle longitude=&#34;77.2001&#34; latitude=&#34;28.4001&#34; radius=&#34;300&#34;&gt;
+        Round
+      &lt;/leaflet-circle&gt;
   &lt;/leaflet-map&gt;
 &lt;/body&gt;
 &lt;/html&gt;
